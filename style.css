@@ -6,3 +6,32 @@ html {
 }
 
 /* Place your styles below */
+
+.retry {
+	display: flex;
+	justify-content: center;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.quiz-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.submit {
+	display: flex;
+	justify-content: center;
+}
+
+.tokyo {
+
+}
+
+.question {
+	display: flex;
+	flex-direction: column;
+}
