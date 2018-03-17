@@ -1,85 +1,84 @@
 <!DOCTYPE>
 	<html>
 		<body>
-			<script src="myscripts.js"></script>
-
 			<header>
 				<link rel="stylesheet" type="text/css" href="style.css">
 
-				<div class = "header" id ="header">
+				<div class = "header" id ="page-title">
 					<h1> What PS2 Action Game Should I Get?</h1>
 				</div>
 				<main>
-					<div class = "retry"> 
-						<button id = "try-again"> Retry </button>
+					<div> 
+						<button class = "retry" id = "try-again"> Retry </button>
 					</div>
-					<div class = "quiz-wrapper">
+					<div class = "quiz-wrapper" id = "quiz-wrapper">
 						<div class = "question">
-							<h2> What landscape would you want to go to? </h2>
-							<div>
+							<h2 class = "h2-question"> What landscape would you want to go to? </h2>
+							<div class = "input">
 								<input type = "radio" name = "location" id = "tokyo">
 								<label for = "tokyo"> Tokyo </label>
 							</div>
-							<div>
+							<div class = "input">
 								<input type = "radio" name = "location" id = "ancient-greece">
 								<label for = "ancient-greece"> Ancient Greece </label>
 							</div>
-							<div>
+							<div class = "input">
 								<input type = "radio" name = "location" id = "outer-space">
 								<label for = "outer-space"> Outer Space </label>
 							</div>
-							<div>
+							<div class = "input">
 								<input type = "radio" name = "location" id = "peninsula">
 								<label for = "peninsula"> A vast, unpopulated peninsula </label>
 							</div> 
 						</div>
-						<div class = "question">
-							<h2> What weapon would you want to have? </h2>
-							<div>
+						<div class = "question" id = >
+							<h2 class = "h2-question"> What weapon would you want to have? </h2>
+							<div class = "input">
 								<input type = "radio" name = "weapon" id = "evil-sword">
 								<label for = "evil-sword"> An evil sword that feeds on the souls of its enemies </label>
 							</div>
-							<div>
+							<div class = "input">
 								<input type = "radio" name = "weapon" id = "ancient-sword">
 								<label for = "ancient-sword"> An ancient sword </label>
 							</div>
-							<div>
+							<div class = "input">
 								<input type = "radio" name = "weapon" id = "blades">
 								<label for = "blades"> A pair of blades attached to chains, wrapped around your wrists and forearms </label>
 							</div>
-							<div>
+							<div class = "input">
 								<input type = "radio" name = "weapon" id = "mecha">
 								<label for = "mecha"> A mecha </label>
 							</div>
 						</div>
 						<div class = "question">
-							<h2> How would you want to finish an enemy? </h2>
-							<div>
+							<h2 class = "h2-question"> How would you want to finish an enemy? </h2>
+							<div class = "input">
 								<input type = "radio" name = "finish" id = "tate">
 								<label for = "tate"> Use your weapon to slice through foes that do not know they are dead until the blade is sheathed </label>
 							</div>
-							<div>
+							<div class = "input">
 								<input type = "radio" name = "finish" id = "raise">
 								<label for = "raise"> Raising your weapon into the air and driving it into an opponent’s skull </label>
 							</div>
-							<div>
+							<div class = "input">
 								<input type = "radio" name = "finish" id = "dismember">
 								<label for = "dismember"> Completely dismembering limbs, ultimately in the effort to cause as much suffering as possible </label>
 							</div>
-							<div>
+							<div class = "input">
 								<input type = "radio" name = "finish" id = "missiles">
 								<label for = "missiles"> Using a combination of missiles, swords and various arms to cause your adversaries to explode </label>
 							</div>
 						</div>
 					</div>
-					<div class = "submit">
-						<button id = "form-submit"> 
-							Submit 
+					<div>
+						<button class = "submit" id = "form-submit"> 
+							Submit
 						</button>
 					</div>
-					<div id = "result"> 
+					<div class = "result" id = "result"> 
 					</div>
 				</main>
 			</header>
+			<script src="script.js"></script>
 		</body>
 	</html>
